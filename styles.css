@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; 
+    text-align: center; 
+}
+
+header, nav, section, footer {
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button, /* button section */
+.name-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.name-button {
+    background-color: #008CBA;
+}
+
+
+.project-button {
+    background-color: #008CBA;
+}
